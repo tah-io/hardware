@@ -1,0 +1,23 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+##############################################################
+
+Tah.name=Tah
+Tah.upload.protocol=avr109
+Tah.upload.maximum_size=28672
+Tah.upload.speed=57600
+Tah.upload.disable_flushing=true
+Tah.bootloader.low_fuses=0xff
+Tah.bootloader.high_fuses=0xd8
+Tah.bootloader.extended_fuses=0xcb
+Tah.bootloader.path=caterina
+Tah.bootloader.file=Caterina-Leonardo.hex
+Tah.bootloader.unlock_bits=0x3F
+Tah.bootloader.lock_bits=0x2F
+Tah.build.mcu=atmega32u4
+Tah.build.f_cpu=16000000L
+Tah.build.vid=0x20A0
+Tah.build.pid=0x41B2
+Tah.build.core=Tah
+Tah.build.variant=Tah
+
