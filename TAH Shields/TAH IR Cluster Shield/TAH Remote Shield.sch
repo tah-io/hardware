@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -3750,12 +3750,12 @@ PNA4602 and related receivers
 <part name="LED2" library="1n4148 diode sot 23" deviceset="LED" device="5MM"/>
 <part name="LED3" library="1n4148 diode sot 23" deviceset="LED" device="5MM"/>
 <part name="LED4" library="1n4148 diode sot 23" deviceset="LED" device="5MM"/>
-<part name="R1" library="1n4148 diode sot 23" deviceset="R-US_" device="M1206"/>
-<part name="R2" library="1n4148 diode sot 23" deviceset="R-US_" device="M1206"/>
-<part name="R3" library="1n4148 diode sot 23" deviceset="R-US_" device="M1206"/>
-<part name="R4" library="1n4148 diode sot 23" deviceset="R-US_" device="M1206"/>
+<part name="R1" library="1n4148 diode sot 23" deviceset="R-US_" device="M1206" value="1k"/>
+<part name="R2" library="1n4148 diode sot 23" deviceset="R-US_" device="M1206" value="1k"/>
+<part name="R3" library="1n4148 diode sot 23" deviceset="R-US_" device="M1206" value="1k"/>
+<part name="R4" library="1n4148 diode sot 23" deviceset="R-US_" device="M1206" value="1k"/>
 <part name="GND" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R5" library="1n4148 diode sot 23" deviceset="R-US_" device="M1206"/>
+<part name="R5" library="1n4148 diode sot 23" deviceset="R-US_" device="M1206" value="1k"/>
 <part name="RC1" library="Infrared Receiver TSOP" deviceset="PNA460XM" device=""/>
 </parts>
 <sheets>
@@ -3861,11 +3861,6 @@ PNA4602 and related receivers
 </segment>
 </net>
 <net name="D3" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="133.35" y1="104.14" x2="125.73" y2="104.14" width="0.1524" layer="91"/>
-<label x="125.73" y="104.14" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="D3"/>
 <wire x1="73.66" y1="45.72" x2="85.09" y2="45.72" width="0.1524" layer="91"/>
@@ -3977,6 +3972,11 @@ PNA4602 and related receivers
 <pinref part="U$2" gate="G$1" pin="D9"/>
 <wire x1="73.66" y1="76.2" x2="85.09" y2="76.2" width="0.1524" layer="91"/>
 <label x="77.47" y="76.2" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="133.35" y1="104.14" x2="125.73" y2="104.14" width="0.1524" layer="91"/>
+<label x="125.73" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D10" class="0">

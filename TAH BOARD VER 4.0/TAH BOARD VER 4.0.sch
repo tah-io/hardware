@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -49,6 +49,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -83,8 +84,12 @@
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
@@ -6047,7 +6052,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <attribute name="VALUE" x="106.553" y="38.1" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND5" gate="1" x="102.87" y="33.02"/>
-<instance part="5V" gate="G$1" x="102.87" y="63.5"/>
+<instance part="5V" gate="G$1" x="102.87" y="62.23"/>
 <instance part="GND7" gate="1" x="130.81" y="20.32"/>
 <instance part="P+3" gate="G$1" x="52.07" y="195.58"/>
 <instance part="C4" gate="G$1" x="69.85" y="187.96"/>
@@ -6211,6 +6216,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="Q1" gate="G$1" pin="G2"/>
 <wire x1="115.57" y1="40.64" x2="115.57" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="110.49" y1="58.42" x2="115.57" y2="58.42" width="0.1524" layer="91"/>
+<junction x="115.57" y="40.64"/>
+<junction x="115.57" y="58.42"/>
 </segment>
 <segment>
 <pinref part="BLE" gate="G$1" pin="12"/>
@@ -6264,7 +6271,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </net>
 <net name="5V" class="0">
 <segment>
-<wire x1="102.87" y1="63.5" x2="102.87" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="62.23" x2="102.87" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="102.87" y1="60.96" x2="102.87" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="95.25" y1="60.96" x2="102.87" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="102.87" y1="60.96" x2="130.81" y2="60.96" width="0.1524" layer="91"/>
@@ -6357,6 +6364,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pinref part="JP5" gate="G$1" pin="7"/>
 <wire x1="217.17" y1="100.33" x2="223.52" y2="100.33" width="0.1524" layer="91"/>
 <label x="223.52" y="100.33" size="1.778" layer="95" rot="R180"/>
+<junction x="217.17" y="100.33"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -6739,6 +6747,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="223.52" y="97.79" size="1.778" layer="95" rot="R180"/>
 <pinref part="JP5" gate="G$1" pin="6"/>
 <wire x1="217.17" y1="97.79" x2="223.52" y2="97.79" width="0.1524" layer="91"/>
+<junction x="217.17" y="97.79"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -6751,6 +6760,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="223.52" y="95.25" size="1.778" layer="95" rot="R180"/>
 <pinref part="JP5" gate="G$1" pin="5"/>
 <wire x1="217.17" y1="95.25" x2="223.52" y2="95.25" width="0.1524" layer="91"/>
+<junction x="217.17" y="95.25"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -6763,6 +6773,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="223.52" y="92.71" size="1.778" layer="95" rot="R180"/>
 <pinref part="JP5" gate="G$1" pin="4"/>
 <wire x1="217.17" y1="92.71" x2="223.52" y2="92.71" width="0.1524" layer="91"/>
+<junction x="217.17" y="92.71"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -6775,6 +6786,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="223.52" y="90.17" size="1.778" layer="95" rot="R180"/>
 <pinref part="JP5" gate="G$1" pin="3"/>
 <wire x1="217.17" y1="90.17" x2="223.52" y2="90.17" width="0.1524" layer="91"/>
+<junction x="217.17" y="90.17"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -6788,6 +6800,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="223.52" y="87.63" size="1.778" layer="95" rot="R180"/>
 <pinref part="JP5" gate="G$1" pin="2"/>
 <wire x1="217.17" y1="87.63" x2="223.52" y2="87.63" width="0.1524" layer="91"/>
+<junction x="217.17" y="87.63"/>
 </segment>
 </net>
 <net name="A5" class="0">
@@ -6801,6 +6814,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <label x="223.52" y="85.09" size="1.778" layer="95" rot="R180"/>
 <pinref part="JP5" gate="G$1" pin="1"/>
 <wire x1="217.17" y1="85.09" x2="223.52" y2="85.09" width="0.1524" layer="91"/>
+<junction x="217.17" y="85.09"/>
 </segment>
 </net>
 <net name="STATUSLED" class="0">
@@ -6832,6 +6846,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="130.81" y1="55.88" x2="123.19" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="123.19" y1="55.88" x2="123.19" y2="58.42" width="0.1524" layer="91"/>
+<junction x="123.19" y="55.88"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -6843,11 +6858,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="130.81" y1="48.26" x2="133.35" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="123.19" y1="40.64" x2="123.19" y2="45.72" width="0.1524" layer="91"/>
+<junction x="123.19" y="45.72"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,39.37,220.98,U2,BP,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
