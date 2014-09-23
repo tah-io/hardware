@@ -1,5 +1,4 @@
-# See: http://code.google.com/p/arduino/wiki/Platforms
-
+# See: http://Tah.io
 ##############################################################
 
 Tah.name=Tah
@@ -11,7 +10,7 @@ Tah.bootloader.low_fuses=0xff
 Tah.bootloader.high_fuses=0xd8
 Tah.bootloader.extended_fuses=0xcb
 Tah.bootloader.path=caterina
-Tah.bootloader.file=Caterina-Leonardo.hex
+Tah.bootloader.file=Tah.hex
 Tah.bootloader.unlock_bits=0x3F
 Tah.bootloader.lock_bits=0x2F
 Tah.build.mcu=atmega32u4

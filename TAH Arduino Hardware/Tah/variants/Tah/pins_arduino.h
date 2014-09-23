@@ -1,29 +1,7 @@
-/*
-  pins_arduino.h - Pin definition functions for Arduino
-  Part of Arduino - http://www.arduino.cc/
 
-  Copyright (c) 2007 David A. Mellis
 
-  This library is free software; you can redistribute it and/or
-  modify it under the terms of the GNU Lesser General Public
-  License as published by the Free Software Foundation; either
-  version 2.1 of the License, or (at your option) any later version.
-
-  This library is distributed in the hope that it will be useful,
-  but WITHOUT ANY WARRANTY; without even the implied warranty of
-  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-  Lesser General Public License for more details.
-
-  You should have received a copy of the GNU Lesser General
-  Public License along with this library; if not, write to the
-  Free Software Foundation, Inc., 59 Temple Place, Suite 330,
-  Boston, MA  02111-1307  USA
-
-  $Id: wiring.h 249 2007-02-03 16:52:51Z mellis $
-*/
-
-#ifndef Pins_Arduino_h
-#define Pins_Arduino_h
+#ifndef pins_arduino_h
+#define pins_arduino_h
 
 #include <avr/pgmspace.h>
 
@@ -72,7 +50,7 @@ extern const uint8_t PROGMEM analog_pin_to_channel_PGM[];
 // for the analog output (software PWM).  Analog input
 // pins are a separate set.
 
-// ATMEL ATMEGA32U4 / ARDUINO LEONARDO
+// ATMEL ATMEGA32U4 / Tah
 //
 // D0				PD2					RXD1/INT2
 // D1				PD3					TXD1/INT3
@@ -253,4 +231,4 @@ const uint8_t PROGMEM analog_pin_to_channel_PGM[12] = {
 };
 
 #endif /* ARDUINO_MAIN */
-#endif /* Pins_Arduino_h */
+#endif /* pins_arduino_h */

@@ -191,23 +191,23 @@ const USB_Descriptor_String_t LanguageString =
  */
 const USB_Descriptor_String_t ProductString =
 {
-	.Header                 = {.Size = USB_STRING_LEN(16), .Type = DTYPE_String},
+	.Header                 = {.Size = USB_STRING_LEN(3), .Type = DTYPE_String},
 
-	#if DEVICE_PID == 0x0036
-	.UnicodeString          = L"Arduino Leonardo" 
+	#if DEVICE_PID == 0x41B2
+	.UnicodeString          = L"Tah"
 	#else
-	.UnicodeString			= L"USB IO board    "
+	.UnicodeString			= L"Tah"
 	#endif
 };
 
 const USB_Descriptor_String_t ManufNameString = 
 {
-	.Header					= {.Size = USB_STRING_LEN(11), .Type = DTYPE_String},
+	.Header					= {.Size = USB_STRING_LEN(10), .Type = DTYPE_String},
 	
-	#if DEVICE_VID == 0x2341
-	.UnicodeString			= L"Arduino LLC"
+	#if DEVICE_VID == 0x20A0
+	.UnicodeString			= L"www.tah.io"
 	#else
-	.UnicodeString			= L"Unknown    "
+	.UnicodeString			= L"www.tah.io"
 	#endif
 };
 

@@ -47,13 +47,13 @@
 #----------------------------------------------------------------------------
 
 # USB vendor ID (VID)
-# official Arduino LLC VID
-# VID = 0x2341
+# Tah VID = 0x20A0
+# VID = 0x20A0
 
 
 # USB product ID (PID)
-# official Leonardo PID
-# PID = 0x0036
+# Tah PID = 0x41B2
+# PID = 0x41B2
 
 
 # MCU name
