@@ -12354,40 +12354,40 @@
 <rectangle x1="0.108284375" y1="2.1582875" x2="0.124984375" y2="2.17495" layer="21"/>
 <rectangle x1="0.141584375" y1="2.1582875" x2="0.158284375" y2="2.17495" layer="21"/>
 </package>
-<package name="TAH_PIN_FOOTPRINT_WITHOUT_ICSP_VERS1.0_SILK">
-<text x="16.55" y="-12.23" size="1.016" layer="125" font="vector" rot="R180">TX</text>
-<text x="16.55" y="-14.83" size="1.016" layer="125" rot="R180">RX</text>
-<text x="16.55" y="-9.43" size="1.27" layer="125" font="vector" rot="R180">2</text>
-<text x="16.55" y="-6.93" size="1.27" layer="125" font="vector" rot="R180">3</text>
-<text x="16.55" y="-4.33" size="1.27" layer="125" font="vector" rot="R180">4</text>
-<text x="16.55" y="-1.83" size="1.27" layer="125" font="vector" rot="R180">5</text>
-<text x="16.55" y="0.67" size="1.27" layer="125" font="vector" rot="R180">6</text>
-<text x="16.55" y="3.27" size="1.27" layer="125" font="vector" rot="R180">7</text>
-<text x="16.55" y="5.77" size="1.27" layer="125" font="vector" rot="R180">8</text>
-<text x="16.55" y="8.37" size="1.27" layer="125" font="vector" rot="R180">9</text>
-<text x="16.55" y="10.87" size="1.27" layer="125" font="vector" rot="R180">10</text>
-<text x="16.55" y="13.37" size="1.27" layer="125" font="vector" rot="R180">11</text>
-<text x="16.55" y="15.97" size="1.27" layer="125" font="vector" rot="R180">12</text>
-<text x="-16.55" y="14.81" size="1.27" layer="125" font="vector">13</text>
-<text x="-16.55" y="12.41" size="0.8" layer="125" font="vector">RESET</text>
-<text x="-16.55" y="9.91" size="0.8" layer="125" font="vector">3.3V</text>
-<text x="-16.55" y="7.21" size="0.8" layer="125" font="vector">5V</text>
-<text x="-16.55" y="2.11" size="0.8" layer="125" font="vector">GND</text>
-<text x="-16.55" y="-15.65" size="1.016" layer="125" font="vector">A5</text>
-<text x="-16.55" y="-13.13" size="1.016" layer="125" font="vector">A4</text>
-<text x="-16.55" y="-10.72" size="1.016" layer="125" font="vector">A3</text>
-<text x="-16.55" y="-8.11" size="1.016" layer="125" font="vector">A2</text>
-<text x="-16.55" y="-5.52" size="1.016" layer="125" font="vector">A1</text>
-<text x="-16.55" y="-3" size="1.016" layer="125" font="vector">A0</text>
-<text x="-16.55" y="-0.43" size="0.8" layer="125" font="vector">VIN</text>
-<text x="-16.55" y="4.61" size="0.8" layer="125" font="vector">GND</text>
-<wire x1="15.4" y1="-8.46" x2="16.3" y2="-8.46" width="0.4064" layer="125"/>
-<wire x1="15.4" y1="-3.36" x2="16.3" y2="-3.36" width="0.4064" layer="125"/>
-<wire x1="15.4" y1="-0.86" x2="16.3" y2="-0.86" width="0.4064" layer="125"/>
-<wire x1="15.4" y1="6.84" x2="16.3" y2="6.84" width="0.4064" layer="125"/>
-<wire x1="14.4" y1="9.24" x2="16.1" y2="9.24" width="0.4064" layer="125"/>
-<wire x1="14.4" y1="11.84" x2="16.1" y2="11.84" width="0.4064" layer="125"/>
-<wire x1="-16.4" y1="14.54" x2="-14.7" y2="14.54" width="0.4064" layer="125"/>
+<package name="TAH_SILK_FLIPPED">
+<text x="13.64" y="14.61" size="1.27" layer="125" font="vector">13</text>
+<text x="12.23" y="12.41" size="0.8" layer="125" font="vector">RESET</text>
+<text x="13.34" y="9.71" size="0.8" layer="125" font="vector">3.3V</text>
+<text x="14.44" y="7.01" size="0.8" layer="125" font="vector">5V</text>
+<text x="13.74" y="1.91" size="0.8" layer="125" font="vector">GND</text>
+<text x="13.94" y="-15.85" size="1.016" layer="125" font="vector">A5</text>
+<text x="13.94" y="-13.33" size="1.016" layer="125" font="vector">A4</text>
+<text x="13.94" y="-10.92" size="1.016" layer="125" font="vector">A3</text>
+<text x="13.94" y="-8.31" size="1.016" layer="125" font="vector">A2</text>
+<text x="13.94" y="-5.72" size="1.016" layer="125" font="vector">A1</text>
+<text x="13.94" y="-3.2" size="1.016" layer="125" font="vector">A0</text>
+<text x="13.74" y="-0.63" size="0.8" layer="125" font="vector">VIN</text>
+<text x="13.74" y="4.41" size="0.8" layer="125" font="vector">GND</text>
+<wire x1="13.79" y1="14.34" x2="15.49" y2="14.34" width="0.4064" layer="125"/>
+<text x="-15.2" y="-12.23" size="1.016" layer="125" font="vector" rot="R180">TX</text>
+<text x="-15.2" y="-14.83" size="1.016" layer="125" rot="R180">RX</text>
+<text x="-15.2" y="-9.43" size="1.27" layer="125" font="vector" rot="R180">2</text>
+<text x="-15.2" y="-6.93" size="1.27" layer="125" font="vector" rot="R180">3</text>
+<text x="-15.2" y="-4.33" size="1.27" layer="125" font="vector" rot="R180">4</text>
+<text x="-15.2" y="-1.83" size="1.27" layer="125" font="vector" rot="R180">5</text>
+<text x="-15.2" y="0.67" size="1.27" layer="125" font="vector" rot="R180">6</text>
+<text x="-15.2" y="3.27" size="1.27" layer="125" font="vector" rot="R180">7</text>
+<text x="-15.2" y="5.77" size="1.27" layer="125" font="vector" rot="R180">8</text>
+<text x="-15.2" y="8.37" size="1.27" layer="125" font="vector" rot="R180">9</text>
+<text x="-14.6" y="10.87" size="1.27" layer="125" font="vector" rot="R180">10</text>
+<text x="-14.6" y="13.37" size="1.27" layer="125" font="vector" rot="R180">11</text>
+<text x="-14.6" y="15.97" size="1.27" layer="125" font="vector" rot="R180">12</text>
+<wire x1="-16.35" y1="-8.46" x2="-15.45" y2="-8.46" width="0.4064" layer="125"/>
+<wire x1="-16.35" y1="-3.36" x2="-15.45" y2="-3.36" width="0.4064" layer="125"/>
+<wire x1="-16.35" y1="-0.86" x2="-15.45" y2="-0.86" width="0.4064" layer="125"/>
+<wire x1="-16.35" y1="6.84" x2="-15.45" y2="6.84" width="0.4064" layer="125"/>
+<wire x1="-16.85" y1="9.24" x2="-15.15" y2="9.24" width="0.4064" layer="125"/>
+<wire x1="-16.85" y1="11.84" x2="-15.15" y2="11.84" width="0.4064" layer="125"/>
 </package>
 </packages>
 </library>
@@ -12424,26 +12424,6 @@ grid 2.54 mm, diameter 6 mm</description>
 <pad name="RING_SW" x="-4.6" y="-6.29" drill="3" diameter="4.8" rot="R180"/>
 <pad name="TIP" x="0.1" y="-9.29" drill="3" diameter="4.8" rot="R180"/>
 <pad name="RING" x="0.1" y="-3.39" drill="3" diameter="4.8" rot="R180"/>
-</package>
-<package name="SMADIODE">
-<description>&lt;b&gt;SMA Surface Mount Diode&lt;/b&gt;</description>
-<smd name="C" x="-0.05" y="1.9" dx="1.5" dy="1.524" layer="1" rot="R270"/>
-<smd name="A" x="-0.05" y="-1.6" dx="1.5" dy="1.524" layer="1" rot="R90"/>
-<text x="1.62" y="0.12" size="1.016" layer="25" font="vector" rot="R90" align="center">&gt;NAME</text>
-<text x="-1.189" y="-1.38" size="0.6096" layer="27" font="vector" rot="R90">&gt;VALUE</text>
-<rectangle x1="-0.8" y1="1.7" x2="0.7" y2="2" layer="51"/>
-<wire x1="-0.8" y1="1.7" x2="-0.8" y2="-1.3" width="0.1778" layer="51"/>
-<wire x1="0.7" y1="1.7" x2="0.7" y2="-1.3" width="0.1778" layer="51"/>
-<rectangle x1="-0.8" y1="-1.6" x2="0.7" y2="-1.3" layer="51"/>
-<wire x1="-0.4695" y1="-0.0965" x2="0.4195" y2="-0.0965" width="0.127" layer="21"/>
-<wire x1="0.4195" y1="-0.0965" x2="-0.025" y2="0.2845" width="0.127" layer="21"/>
-<wire x1="-0.025" y1="0.2845" x2="-0.4695" y2="-0.0965" width="0.127" layer="21"/>
-<wire x1="-0.4695" y1="0.4115" x2="0.4195" y2="0.4115" width="0.127" layer="21"/>
-<rectangle x1="-0.8" y1="1" x2="0.7" y2="1.3" layer="51"/>
-<wire x1="-1" y1="2.8" x2="-1" y2="-2.5" width="0.06" layer="21"/>
-<wire x1="-1" y1="-2.5" x2="0.9" y2="-2.5" width="0.06" layer="21"/>
-<wire x1="0.9" y1="-2.5" x2="0.9" y2="2.8" width="0.06" layer="21"/>
-<wire x1="0.9" y1="2.8" x2="-1" y2="2.8" width="0.06" layer="21"/>
 </package>
 </packages>
 </library>
@@ -12579,6 +12559,30 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pad name="5V_ICSP" x="66.167" y="30.48" drill="1" diameter="1.778" shape="octagon"/>
 <pad name="GND@3" x="66.167" y="25.4" drill="1" diameter="1.778" shape="octagon"/>
 <pad name="RESET_ICSP" x="63.627" y="25.4" drill="1" diameter="1.778" shape="octagon"/>
+</package>
+<package name="DO41-10">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 2.54 mm, horizontal, grid 10.16 mm</description>
+<wire x1="2.032" y1="-1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="-2.032" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="0" x2="4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.762" layer="51"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="A" x="5.08" y="0" drill="1.1176" diameter="1.9304"/>
+<pad name="C" x="-5.08" y="0" drill="1.1176" diameter="1.9304"/>
+<text x="-2.032" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.032" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="-1.27" x2="-1.143" y2="1.27" layer="21"/>
+<rectangle x1="2.032" y1="-0.381" x2="3.937" y2="0.381" layer="21"/>
+<rectangle x1="-3.937" y1="-0.381" x2="-2.032" y2="0.381" layer="21"/>
 </package>
 </packages>
 </library>
@@ -12774,14 +12778,14 @@ design rules under a new name.</description>
 <elements>
 <element name="U$1" library="TAH" package="TAH_PIN_FOOTPRINT_VER1.0" value="TAH_PIN_FOOTPRINT_VER1.0" x="22.25" y="23.63" rot="MR0"/>
 <element name="U$3" library="1n4148 diode sot 23" package="PJ-102A" value="2.1MMJACKTHM" x="4.5" y="54" rot="R90"/>
-<element name="IC1" library="SparkFun-PowerIC" package="TO-220-ALT" value="" x="29" y="51.1" rot="R270"/>
-<element name="D3" library="1n4148 diode sot 23" package="SMADIODE" value="1N4148" x="20" y="51" rot="R270"/>
+<element name="IC1" library="SparkFun-PowerIC" package="TO-220-ALT" value="" x="39.4" y="51.1" rot="R270"/>
 <element name="C1" library="Arduino Shield Pin Out" package="E2,5-6E" value="10uF" x="20" y="56" rot="R180"/>
 <element name="C2" library="Arduino Shield Pin Out" package="E2,5-6E" value="10uF" x="20" y="46" rot="R180"/>
 <element name="U$2" library="TAH" package="TAHLOGO" value="" x="90.1" y="60.3"/>
 <element name="M1" library="adafruit" package="ARDUINOR3_ICSP_NODIM" value="ARDUINO_R3_ICSP_NODIM" x="43.4" y="68.6" rot="R270"/>
 <element name="U$4" library="TAH" package="TAHLOGO" value="" x="69.5" y="37.2" rot="MR0"/>
-<element name="U$5" library="TAH" package="TAH_PIN_FOOTPRINT_WITHOUT_ICSP_VERS1.0_SILK" value="" x="21.9" y="25.3"/>
+<element name="U$5" library="TAH" package="TAH_SILK_FLIPPED" value="" x="22.5" y="25.5"/>
+<element name="D1" library="adafruit" package="DO41-10" value="1N4004" x="25.5" y="51.3" rot="R180"/>
 </elements>
 <signals>
 <signal name="D0">
@@ -13061,9 +13065,11 @@ design rules under a new name.</description>
 <contactref element="M1" pad="D11"/>
 <wire x1="89.125" y1="34.625" x2="94.125" y2="34.625" width="0.254" layer="16"/>
 <wire x1="68.125" y1="55.625" x2="89.125" y2="34.625" width="0.254" layer="16"/>
-<wire x1="22.875" y1="55.625" x2="68.125" y2="55.625" width="0.254" layer="16"/>
-<wire x1="5.5" y1="38.25" x2="22.875" y2="55.625" width="0.254" layer="16"/>
-<wire x1="3.875" y1="38.25" x2="5.5" y2="38.25" width="0.254" layer="16"/>
+<wire x1="18.675" y1="52.625" x2="27.925" y2="52.625" width="0.254" layer="16"/>
+<wire x1="27.925" y1="52.625" x2="30.9" y2="55.6" width="0.254" layer="16"/>
+<wire x1="30.9" y1="55.6" x2="68.125" y2="55.625" width="0.254" layer="16"/>
+<wire x1="4.5" y1="38.25" x2="18.675" y2="52.625" width="0.254" layer="16"/>
+<wire x1="3.875" y1="38.25" x2="4.5" y2="38.25" width="0.254" layer="16"/>
 <wire x1="94.125" y1="34.625" x2="94.2" y2="34.564" width="0.254" layer="16"/>
 <wire x1="3.875" y1="38.25" x2="3.8" y2="38.22" width="0.254" layer="16"/>
 </signal>
@@ -13102,9 +13108,8 @@ design rules under a new name.</description>
 <contactref element="C2" pad="+"/>
 <contactref element="IC1" pad="OUT"/>
 <contactref element="U$1" pad="VIN"/>
-<wire x1="23.875" y1="48.5" x2="25.125" y2="48.5" width="0.254" layer="1"/>
-<wire x1="21.375" y1="46" x2="23.875" y2="48.5" width="0.254" layer="1"/>
-<wire x1="25.125" y1="48.5" x2="25.19" y2="48.56" width="0.254" layer="1"/>
+<wire x1="21.375" y1="46" x2="23.975" y2="48.56" width="0.4064" layer="1"/>
+<wire x1="23.975" y1="48.56" x2="35.59" y2="48.56" width="0.4064" layer="1"/>
 <wire x1="21.375" y1="46" x2="21.27" y2="46" width="0.254" layer="1"/>
 <wire x1="39.75" y1="25.875" x2="39.75" y2="25.5" width="0.254" layer="1"/>
 <wire x1="21.375" y1="44.25" x2="39.75" y2="25.875" width="0.254" layer="1"/>
@@ -13114,23 +13119,20 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$4">
 <contactref element="U$3" pad="TIP"/>
-<contactref element="D3" pad="A"/>
-<wire x1="16.75" y1="51.125" x2="18.375" y2="51.125" width="0.254" layer="1"/>
-<wire x1="13.875" y1="54" x2="16.75" y2="51.125" width="0.254" layer="1"/>
-<wire x1="18.375" y1="51.125" x2="18.4" y2="51.05" width="0.254" layer="1"/>
-<wire x1="13.875" y1="54" x2="13.79" y2="54.1" width="0.254" layer="1"/>
+<contactref element="D1" pad="A"/>
+<wire x1="20.42" y1="51.3" x2="16.59" y2="51.3" width="0.4064" layer="1"/>
+<wire x1="16.59" y1="51.3" x2="13.79" y2="54.1" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$5">
-<contactref element="D3" pad="C"/>
 <contactref element="IC1" pad="IN"/>
 <contactref element="C1" pad="+"/>
-<wire x1="22.625" y1="51.125" x2="22" y2="51.125" width="0.254" layer="1"/>
-<wire x1="25.125" y1="53.625" x2="22.625" y2="51.125" width="0.254" layer="1"/>
-<wire x1="22" y1="51.125" x2="21.9" y2="51.05" width="0.254" layer="1"/>
-<wire x1="25.125" y1="53.625" x2="25.19" y2="53.64" width="0.254" layer="1"/>
-<wire x1="24.375" y1="53" x2="21.375" y2="56" width="0.254" layer="1"/>
-<wire x1="21.375" y1="56" x2="21.27" y2="56" width="0.254" layer="1"/>
-<wire x1="24.375" y1="53" x2="25.19" y2="53.64" width="0.254" layer="1"/>
+<wire x1="28" y1="53.64" x2="25.6" y2="56" width="0.4064" layer="1"/>
+<wire x1="25.6" y1="56" x2="21.27" y2="56" width="0.4064" layer="1"/>
+<wire x1="28" y1="53.64" x2="34.2" y2="53.64" width="0.4064" layer="1"/>
+<contactref element="D1" pad="C"/>
+<wire x1="34.2" y1="53.64" x2="35.59" y2="53.64" width="0.4064" layer="1"/>
+<wire x1="30.58" y1="51.3" x2="31.86" y2="51.3" width="0.4064" layer="1"/>
+<wire x1="31.86" y1="51.3" x2="34.2" y2="53.64" width="0.4064" layer="1"/>
 </signal>
 <signal name="SCK">
 <contactref element="M1" pad="SCK"/>

@@ -128,7 +128,7 @@
 <libraries>
 <library name="TAH">
 <packages>
-<package name="TAH_PIN_FOOTPRINT_WITHOUT_ICSP_VER1.0">
+<package name="FOOTPRINT_WITHOUT_ICSP">
 <pad name="A5" x="-17.55" y="-13.43" drill="1" diameter="1.9304"/>
 <pad name="A4" x="-17.55" y="-10.93" drill="1" diameter="1.9304"/>
 <pad name="A3" x="-17.55" y="-8.39" drill="1" diameter="1.9304"/>
@@ -199,7 +199,7 @@
 <gate name="G$1" symbol="TAH_PIN_FOOTPRINT_WITHOUT_ICSP_VER1.0" x="-22.86" y="-35.56"/>
 </gates>
 <devices>
-<device name="" package="TAH_PIN_FOOTPRINT_WITHOUT_ICSP_VER1.0">
+<device name="" package="FOOTPRINT_WITHOUT_ICSP">
 <connects>
 <connect gate="G$1" pin="3.3V" pad="3.3V"/>
 <connect gate="G$1" pin="5V" pad="5V"/>
