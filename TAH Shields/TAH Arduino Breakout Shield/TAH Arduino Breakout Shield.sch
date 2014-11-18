@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -6783,6 +6783,11 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="208.28" y1="55.88" x2="217.17" y2="55.88" width="0.1524" layer="91"/>
 <label x="213.36" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="M1" gate="G$1" pin="SDA"/>
+<wire x1="208.28" y1="93.98" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
+<label x="213.36" y="93.98" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D3" class="0">
 <segment>
@@ -6794,6 +6799,11 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="M1" gate="G$1" pin="D3"/>
 <wire x1="208.28" y1="58.42" x2="217.17" y2="58.42" width="0.1524" layer="91"/>
 <label x="213.36" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="M1" gate="G$1" pin="SCL"/>
+<wire x1="208.28" y1="96.52" x2="215.9" y2="96.52" width="0.1524" layer="91"/>
+<label x="213.36" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D4" class="0">
