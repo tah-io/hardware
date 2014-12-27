@@ -135,7 +135,7 @@
 <text x="19.6" y="18.1" size="0.8128" layer="125" font="vector" align="center">IR Recv</text>
 <text x="19.4" y="7.1" size="1.016" layer="22" rot="MR0" align="center">http://tah.io/start</text>
 <text x="19.4" y="8.7" size="1.016" layer="22" rot="MR0" align="center">Made In India</text>
-<text x="19.5" y="1.5" size="0.8128" layer="1" align="center">112014/1.0</text>
+<text x="19.5" y="1.5" size="0.8128" layer="1" align="center">122014/1.0</text>
 </plain>
 <libraries>
 <library name="TAH">

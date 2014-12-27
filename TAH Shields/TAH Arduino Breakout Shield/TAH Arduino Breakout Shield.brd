@@ -146,7 +146,7 @@
 <text x="69.5" y="34.1" size="1.016" layer="22" rot="MR0" align="center">Made In India</text>
 <text x="69.5" y="32.5" size="1.016" layer="22" rot="MR0" align="center">http://tah.io/start</text>
 <text x="69.5" y="31" size="1.016" layer="22" font="vector" rot="MR0" align="center">Version 1.0</text>
-<text x="86.9" y="1.2" size="1.016" layer="1">112014/1.0</text>
+<text x="86.9" y="1.2" size="1.016" layer="1">122014/1.0</text>
 </plain>
 <libraries>
 <library name="TAH">
