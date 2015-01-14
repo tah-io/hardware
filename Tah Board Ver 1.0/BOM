@@ -1,0 +1,39 @@
+Partlist
+
+Exported from Tah Board Ver 1.0.brd at 14/01/15 11:49
+
+
+Assembly variant: 
+
+Part     Value             Package                         Library             Position (mil)        Orientation
+
+B        Blue              1206                            1n4148 diode sot 23 (1220.47244 2106.29921) R180
+BLE                        BC05B-SMD                       HM-11               (767.71654 1775.59055) R0
+BTN1     SPST.B3U-1000P(M) B3U-1000P(M)                    omron               (1220.47244 846.45669) R197.7
+C1       0.1uF             1206                            SparkFun-Capacitors (657.48031 570.86614) R270
+C2       18pF              1206                            SparkFun-Capacitors (1220.47244 1830.70866) R180
+C3       18pF              1206                            SparkFun-Capacitors (1220.47244 1417.32283) R0
+C4       1uF               1206                            SparkFun-Capacitors (1023.62205 854.33071) R270
+C5       1uF               1206                            SparkFun-Capacitors (314.96063 1279.52756) R180
+C6       0.1uF             1206                            SparkFun-Capacitors (314.96063 1417.32283) R0
+C7       0.1uF             1206                            SparkFun-Capacitors (314.96063 1555.11811) R0
+C8       10uF              EIA3216                         SparkFun            (538.58268 610.23622) R90
+C9       0.1uF             1206                            SparkFun-Capacitors (314.96063 1692.91339) R0
+F1       PTCSMD            PTC-1206                        SparkFun            (1011.02362 610.23622) R90
+J1       AVR_SPI_PRG       2X3                             SparkFun            (665.35433 763.77953) R0
+JP2      USBPCB            USB-A-PCB                       SparkFun-Connectors (767.71654 204.33071) R90
+JP6      M13               1X13                            SparkFun-Connectors (59.05512 921.25984)  R90
+JP7      M13               1X13                            SparkFun-Connectors (1476.37795 921.25984) R90
+L        Green             1206                            1n4148 diode sot 23 (314.96063 2106.29921) R0
+ON       Red               1206                            1n4148 diode sot 23 (290.55118 846.45669) SR162.3
+Q1                         NX3225                          adafruit            (1220.47244 1680.01575) R270
+R1       10k               1206                            SparkFun-Resistors  (1220.47244 1279.52756) R180
+R2       22                1206                            SparkFun-Resistors  (767.71654 570.86614) R90
+R3       22                1206                            SparkFun-Resistors  (877.95276 570.86614) R90
+R4       1k                1206                            SparkFun-Resistors  (507.87402 854.33071) R90
+R5       1k                1206                            SparkFun-Resistors  (314.96063 1830.70866) R180
+R6       1k                1206                            SparkFun-Resistors  (1220.47244 1054.99213) R180
+R7       1k                1206                            SparkFun-Resistors  (314.96063 1968.50394) R0
+R9       470               1206                            SparkFun-Resistors  (1220.47244 1968.50394) R0
+U1       ATMEGA32U4        SPARKFUN-DIGITALIC_QFN-44-NOPAD SparkFun-Retired    (767.71654 1181.10236) R90
+U2       3.3V_REG_LDOSMD   SOT23-5                         SparkFun            (314.96063 1059.05512) R270
