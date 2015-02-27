@@ -47,13 +47,14 @@
 #----------------------------------------------------------------------------
 
 # USB vendor ID (VID)
-# Tah VID = 0x20A0
-# VID = 0x20A0
+# reuse of this VID by others is forbidden by USB-IF
+# official Tah VID
+VID = 0x16D0
 
 
 # USB product ID (PID)
-# Tah PID = 0x41B2
-# PID = 0x41B2
+# official Tah PID
+PID = 0x0A96
 
 
 # MCU name
@@ -123,7 +124,7 @@ OBJDIR = .
 
 
 # Path to the LUFA library
-LUFA_PATH = ../../../../../LUFA-111009
+LUFA_PATH = ../LUFA-111009
 
 
 # LUFA library compile-time options and predefined tokens
