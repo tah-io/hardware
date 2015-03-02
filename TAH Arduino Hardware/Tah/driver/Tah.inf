@@ -1,4 +1,4 @@
-﻿;************************************************************
+;************************************************************
 ; Windows USB CDC ACM Setup File
 ; Copyright (c) 2000 Microsoft Corporation
 
@@ -86,12 +86,14 @@ ServiceBinary=%12%\%DRIVERFILENAME%.sys
 [SourceDisksFiles]
 [SourceDisksNames]
 [DeviceList]
-%DESCRIPTION%=DriverInstall, USB\VID_16D0&PID_0A96
-%DESCRIPTION%=DriverInstall, USB\VID_16D0&PID_0A98&MI_00
+%DESCRIPTION%=DriverInstall, USB\VID_16D0&PID_0A96&MI_00 ;sketch_old
+%DESCRIPTION%=DriverInstall, USB\VID_16D0&PID_0A98&MI_00 ;sketch_new
+%DESCRIPTION%=DriverInstall, USB\VID_16D0&PID_0A96 ;boot
 
 [DeviceList.NTamd64]
-%DESCRIPTION%=DriverInstall, USB\VID_16D0&PID_0A96
-%DESCRIPTION%=DriverInstall, USB\VID_16D0&PID_0A98&MI_00
+%DESCRIPTION%=DriverInstall, USB\VID_1D50&PID_60A6&MI_00 ;sketch_old
+%DESCRIPTION%=DriverInstall, USB\VID_1D50&PID_808A&MI_00 ;sketch_new
+%DESCRIPTION%=DriverInstall, USB\VID_1D50&PID_608A ;boot
 
 ;------------------------------------------------------------------------------
 ;  String Definitions
@@ -102,6 +104,6 @@ ServiceBinary=%12%\%DRIVERFILENAME%.sys
 MFGFILENAME="CDC_vista"
 DRIVERFILENAME ="usbser"
 MFGNAME="Tah (www.tah.io)"
-INSTDISK="Tah  Driver Installer"
+INSTDISK="Tah Driver Installer"
 DESCRIPTION="Tah"
 SERVICE="USB RS-232 Emulation Driver"
